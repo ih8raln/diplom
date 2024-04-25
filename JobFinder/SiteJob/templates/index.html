@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="{% static "css/style.css" %}">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <img src="{% static "images/logo_base.svg" %}" width="200" height="200" alt="">
+    </header>
+    <section class="nav-bar">
+      <div class="container">
+        <div class="nav-bar--inner">
+          <div class="nav-item">
+            Специалистам
+            <ul class="special">
+              <li><img src="{% static "images/ФАКУЛЬТЕТЫ CMYK_Знак факультет А.png"%}" width="50" height="50" alt="A">
+                <a href="#">Ракетно-космической техники</a>
+              </li>
+              <li><img src="{% static "images/ФАКУЛЬТЕТЫ CMYK_Знак факультет Е.png"%}" width="50" height="50" alt="A">
+                <a href="#">Оружие и системы вооружения</a>
+              </li>
+              <li><img src="{% static "images/ФАКУЛЬТЕТЫ CMYK_Знак факультет И.png"%}" width="50" height="50" alt="A">
+                <a href="#">Информационные и управляющие системы</a>
+              </li>
+              <li><img src="{% static "images/ФАКУЛЬТЕТЫ CMYK_Знак факультет О.png"%}" width="50" height="50" alt="A">
+                <a href="#">Естественно-научный</a>
+              </li>
+              <li><img src="{% static "images/ФАКУЛЬТЕТЫ CMYK_Знак факультет Р.png"%}" width="50" height="50" alt="A">
+                <a href="#">Международного промышленного менджмента и коммуникации</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-item"><a href="/employer">Работодателям</a></div>
+          <div class="nav-item"><a href="#">О Военмехе</a></div>
+          <div class="nav-item"><a href="#">Контакты</a></div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
